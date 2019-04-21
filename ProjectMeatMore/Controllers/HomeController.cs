@@ -10,6 +10,7 @@ namespace ProjectMeatMore.Controllers
 {
     public class HomeController : Controller
     {
+        //Simple index for main page
         public IActionResult Index()
         {
             return View();
